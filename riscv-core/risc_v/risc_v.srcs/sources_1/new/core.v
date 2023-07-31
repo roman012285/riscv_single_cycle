@@ -9,8 +9,8 @@
 `include "defines.v"
 
 module core(
-    input clk,
-    input rst
+    input                           clk,
+    input                           rst
  );
  
     // alu instantiation //
@@ -58,8 +58,6 @@ module core(
     wire                            clk_inst;
     reg  [`INST_SIZE-1:0]           din_inst; 
     wire [`INST_SIZE-1:0]           dout_inst;
-    reg                             en_inst;
-    reg                             we_inst;
     
     assign clk_inst = clk;
      
@@ -67,9 +65,7 @@ module core(
       .addra(addr_inst),
       .clka(clk_inst),
       .dina(din_inst), 
-      .douta(dout_inst),
-      .ena(en_inst),
-      .wea(we_inst)
+      .douta(dout_inst)
 );
 
     // data  ram //
@@ -305,10 +301,8 @@ module core(
     
     // instruction fetch
     always @(*) begin 
-       addr_inst <= PC;
-       IR <= dout_inst;
-       en_inst <= 1'b1;
-       we_inst <= 1'b0;
+       addr_inst = PC;
+       IR = dout_inst;
     end
     
     

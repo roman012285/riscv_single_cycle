@@ -11,21 +11,12 @@ module inst_ram(
      input  [$clog2(`INST_DEPTH)-1:0]  addra,
      input                             clka,
      input  [`INST_SIZE-1:0]           dina, 
-     output [`INST_SIZE-1:0]           douta,
-     input                             ena,
-     input                             wea
+     output [`INST_SIZE-1:0]           douta
 );
 
-    // This is distributed RAM. To create block ram use IP or add register to output
-    // possible to use (*ram_style = block"*) after creating output reg 
+
     reg [`INST_SIZE-1:0] inst_ram [0:`INST_DEPTH-1];
-    
-    
-    always @(posedge clka) begin
-        if(ena & wea)
-            inst_ram[addra] <= dina;
-    end 
-    
-    assign douta = (ena) ? inst_ram[addra] : 0;
+       
+    assign douta = inst_ram[addra];
     
 endmodule

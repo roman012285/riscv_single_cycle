@@ -1,0 +1,96 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+STARTING TEST
+ALL RESULT IN HEXADECIMAL BASE AND NOT!!!!! IN BINARY
+CASE1 IN1>IN2 - BOTH POSITIVE
+-----------------------------------------------------
+TESTING ADD : the result of 00000100 + 00000004 is: 00000104 
+
+
+TESTING SUB(1/2) : the result of 00000100 - 00000004 is: 000000fc 
+
+
+TESTING SLL : the result of 00000100 << 00000004 is: 00001000 
+
+
+TESTING SLT(1/5) : the result of 00000100 SLT 00000004 is: 00000000 
+
+
+TESTING SLTU(1/5) : the result of 00000100 SLTU 00000004 is: 00000000 
+
+
+TESTING XOR : the result of 00000100 XOR 00000004 is: 00000104 
+
+
+TESTING SRL(1/2) : the result of 00000100 SRL 00000004 is: 00000010 
+
+
+TESTING SRA(1/2) : the result of 00000100 SRA 00000004 is: 00000010 
+
+
+TESTING OR : the result of 00000100 OR 00000004 is: 00000104 
+
+
+TESTING AND : the result of 00000100 AND 00000004 is: 00000000 
+
+
+CASE2 IN1<IN2
+-------------
+TESTING SUB(2/2) : the result of 00000004 - 00000006 is: fffffffe 
+
+
+TESTING SLT(2/5) : the result of 00000004 SLT 00000006 is: 00000001 
+
+
+TESTING SLTU(2/5) : the result of 00000004 SLTU 00000006 is: 00000001 
+
+
+CASE3 IN1>IN2 - BOTH NEGATIVE
+-----------------------------
+TESTING SLT(3/5) : the result of fffffff6 SLT fffffff5 is: 00000000 
+
+
+TESTING SLTU(3/5) : the result of fffffff6 SLTU fffffff5 is: 00000000 
+
+
+FINISH TEST
+
+___________
+
+CASE4 IN1<IN2 - BOTH NEGATIVE
+-----------------------------
+TESTING SLT(4/5) : the result of fffffff5 SLT fffffff6 is: 00000001 
+
+
+TESTING SLTU(4/5) : the result of fffffff5 SLTU fffffff6 is: 00000001 
+
+
+FINISH TEST
+
+___________
+
+CASE5 IN1 > IN2. One positive and other negative
+------------------------------------------------
+TESTING SLT(5/5) : the result of fffffff5 SLT 00000006 is: 00000001 
+
+
+TESTING SLTU(5/5) : the result of fffffff5 SLTU 00000006 is: 00000000 
+
+
+CASE6 Checking arithmetic right shift
+-------------------------------------
+TESTING SRA(2/2) : the result of f0000005 SRA 00000002 is: fc000001 
+
+
+TESTING SRL(1/2) : the result of f0000005 SRL 00000002 is: 3c000001 
+
+
+ZERO FLAG CHECK
+-------------------------------------
+ZERO FLAG IS: in1 = 00000005, in2 =  00000005 and flag is: 1
+ZERO FLAG IS: in1 = 00000006, in2 =  00000005 and flag is: 0
+
+FINISH TEST
+-----------
+
+$finish called at time : 280 ns : File "D:/BarIlan/DDP/exercises/RiscV/riscv-core/risc_v/risc_v.srcs/sim_1/new/alu_tb.v" Line 226

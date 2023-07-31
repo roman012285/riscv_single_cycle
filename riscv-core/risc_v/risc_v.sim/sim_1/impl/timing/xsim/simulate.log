@@ -1,0 +1,73 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+MEMORY INIZIALIZATION
+---------------------
+WARNING: "D:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/RAMS64E.v" Line 257: Timing violation in scope /inst_ram_tb/ins_ram/inst_ram_reg_0_255_0_0/RAMS64E_A/TChk257_1223 at time 9799 ps $setuphold (posedge CLK,posedge WE,(0:0:0),(0:0:0),notifier,clk_en_p,clk_en_p,CLK_delay,WE_delay) 
+WARNING: "D:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/RAMS64E.v" Line 257: Timing violation in scope /inst_ram_tb/ins_ram/inst_ram_reg_0_255_0_0/RAMS64E_B/TChk257_1294 at time 9799 ps $setuphold (posedge CLK,posedge WE,(0:0:0),(0:0:0),notifier,clk_en_p,clk_en_p,CLK_delay,WE_delay) 
+WARNING: "D:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/RAMS64E.v" Line 257: Timing violation in scope /inst_ram_tb/ins_ram/inst_ram_reg_0_255_0_0/RAMS64E_C/TChk257_1365 at time 9799 ps $setuphold (posedge CLK,posedge WE,(0:0:0),(0:0:0),notifier,clk_en_p,clk_en_p,CLK_delay,WE_delay) 
+WARNING: "D:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/RAMS64E.v" Line 257: Timing violation in scope /inst_ram_tb/ins_ram/inst_ram_reg_0_255_0_0/RAMS64E_D/TChk257_1436 at time 9799 ps $setuphold (posedge CLK,posedge WE,(0:0:0),(0:0:0),notifier,clk_en_p,clk_en_p,CLK_delay,WE_delay) 
+WARNING: "D:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/RAMS64E.v" Line 257: Timing violation in scope /inst_ram_tb/ins_ram/inst_ram_reg_0_255_1_1/RAMS64E_A/TChk257_1223 at time 9799 ps $setuphold (posedge CLK,posedge WE,(0:0:0),(0:0:0),notifier,clk_en_p,clk_en_p,CLK_delay,WE_delay) 
+WARNING: "D:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/RAMS64E.v" Line 257: Timing violation in scope /inst_ram_tb/ins_ram/inst_ram_reg_0_255_1_1/RAMS64E_B/TChk257_1294 at time 9799 ps $setuphold (posedge CLK,posedge WE,(0:0:0),(0:0:0),notifier,clk_en_p,clk_en_p,CLK_delay,WE_delay) 
+WARNING: "D:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/RAMS64E.v" Line 257: Timing violation in scope /inst_ram_tb/ins_ram/inst_ram_reg_0_255_1_1/RAMS64E_C/TChk257_1365 at time 9799 ps $setuphold (posedge CLK,posedge WE,(0:0:0),(0:0:0),notifier,clk_en_p,clk_en_p,CLK_delay,WE_delay) 
+WARNING: "D:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/RAMS64E.v" Line 257: Timing violation in scope /inst_ram_tb/ins_ram/inst_ram_reg_0_255_1_1/RAMS64E_D/TChk257_1436 at time 9799 ps $setuphold (posedge CLK,posedge WE,(0:0:0),(0:0:0),notifier,clk_en_p,clk_en_p,CLK_delay,WE_delay) 
+WARNING: "D:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/RAMS64E.v" Line 257: Timing violation in scope /inst_ram_tb/ins_ram/inst_ram_reg_0_255_2_2/RAMS64E_A/TChk257_1223 at time 9799 ps $setuphold (posedge CLK,posedge WE,(0:0:0),(0:0:0),notifier,clk_en_p,clk_en_p,CLK_delay,WE_delay) 
+WARNING: "D:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/RAMS64E.v" Line 257: Timing violation in scope /inst_ram_tb/ins_ram/inst_ram_reg_0_255_2_2/RAMS64E_B/TChk257_1294 at time 9799 ps $setuphold (posedge CLK,posedge WE,(0:0:0),(0:0:0),notifier,clk_en_p,clk_en_p,CLK_delay,WE_delay) 
+WARNING: "D:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/RAMS64E.v" Line 257: Timing violation in scope /inst_ram_tb/ins_ram/inst_ram_reg_0_255_2_2/RAMS64E_C/TChk257_1365 at time 9799 ps $setuphold (posedge CLK,posedge WE,(0:0:0),(0:0:0),notifier,clk_en_p,clk_en_p,CLK_delay,WE_delay) 
+WARNING: "D:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/RAMS64E.v" Line 257: Timing violation in scope /inst_ram_tb/ins_ram/inst_ram_reg_0_255_2_2/RAMS64E_D/TChk257_1436 at time 9799 ps $setuphold (posedge CLK,posedge WE,(0:0:0),(0:0:0),notifier,clk_en_p,clk_en_p,CLK_delay,WE_delay) 
+WARNING: "D:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/RAMS64E.v" Line 257: Timing violation in scope /inst_ram_tb/ins_ram/inst_ram_reg_0_255_3_3/RAMS64E_A/TChk257_1223 at time 9799 ps $setuphold (posedge CLK,posedge WE,(0:0:0),(0:0:0),notifier,clk_en_p,clk_en_p,CLK_delay,WE_delay) 
+WARNING: "D:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/RAMS64E.v" Line 257: Timing violation in scope /inst_ram_tb/ins_ram/inst_ram_reg_0_255_3_3/RAMS64E_B/TChk257_1294 at time 9799 ps $setuphold (posedge CLK,posedge WE,(0:0:0),(0:0:0),notifier,clk_en_p,clk_en_p,CLK_delay,WE_delay) 
+WARNING: "D:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/RAMS64E.v" Line 257: Timing violation in scope /inst_ram_tb/ins_ram/inst_ram_reg_0_255_3_3/RAMS64E_C/TChk257_1365 at time 9799 ps $setuphold (posedge CLK,posedge WE,(0:0:0),(0:0:0),notifier,clk_en_p,clk_en_p,CLK_delay,WE_delay) 
+WARNING: "D:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/RAMS64E.v" Line 257: Timing violation in scope /inst_ram_tb/ins_ram/inst_ram_reg_0_255_3_3/RAMS64E_D/TChk257_1436 at time 9799 ps $setuphold (posedge CLK,posedge WE,(0:0:0),(0:0:0),notifier,clk_en_p,clk_en_p,CLK_delay,WE_delay) 
+WARNING: "D:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/RAMS64E.v" Line 257: Timing violation in scope /inst_ram_tb/ins_ram/inst_ram_reg_0_255_4_4/RAMS64E_A/TChk257_1223 at time 9799 ps $setuphold (posedge CLK,posedge WE,(0:0:0),(0:0:0),notifier,clk_en_p,clk_en_p,CLK_delay,WE_delay) 
+WARNING: "D:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/RAMS64E.v" Line 257: Timing violation in scope /inst_ram_tb/ins_ram/inst_ram_reg_0_255_4_4/RAMS64E_B/TChk257_1294 at time 9799 ps $setuphold (posedge CLK,posedge WE,(0:0:0),(0:0:0),notifier,clk_en_p,clk_en_p,CLK_delay,WE_delay) 
+WARNING: "D:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/RAMS64E.v" Line 257: Timing violation in scope /inst_ram_tb/ins_ram/inst_ram_reg_0_255_4_4/RAMS64E_C/TChk257_1365 at time 9799 ps $setuphold (posedge CLK,posedge WE,(0:0:0),(0:0:0),notifier,clk_en_p,clk_en_p,CLK_delay,WE_delay) 
+WARNING: "D:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/RAMS64E.v" Line 257: Timing violation in scope /inst_ram_tb/ins_ram/inst_ram_reg_0_255_4_4/RAMS64E_D/TChk257_1436 at time 9799 ps $setuphold (posedge CLK,posedge WE,(0:0:0),(0:0:0),notifier,clk_en_p,clk_en_p,CLK_delay,WE_delay) 
+WARNING: "D:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/RAMS64E.v" Line 257: Timing violation in scope /inst_ram_tb/ins_ram/inst_ram_reg_0_255_5_5/RAMS64E_A/TChk257_1223 at time 9799 ps $setuphold (posedge CLK,posedge WE,(0:0:0),(0:0:0),notifier,clk_en_p,clk_en_p,CLK_delay,WE_delay) 
+WARNING: "D:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/RAMS64E.v" Line 257: Timing violation in scope /inst_ram_tb/ins_ram/inst_ram_reg_0_255_5_5/RAMS64E_B/TChk257_1294 at time 9799 ps $setuphold (posedge CLK,posedge WE,(0:0:0),(0:0:0),notifier,clk_en_p,clk_en_p,CLK_delay,WE_delay) 
+WARNING: "D:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/RAMS64E.v" Line 257: Timing violation in scope /inst_ram_tb/ins_ram/inst_ram_reg_0_255_5_5/RAMS64E_C/TChk257_1365 at time 9799 ps $setuphold (posedge CLK,posedge WE,(0:0:0),(0:0:0),notifier,clk_en_p,clk_en_p,CLK_delay,WE_delay) 
+WARNING: "D:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/RAMS64E.v" Line 257: Timing violation in scope /inst_ram_tb/ins_ram/inst_ram_reg_0_255_5_5/RAMS64E_D/TChk257_1436 at time 9799 ps $setuphold (posedge CLK,posedge WE,(0:0:0),(0:0:0),notifier,clk_en_p,clk_en_p,CLK_delay,WE_delay) 
+WARNING: "D:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/RAMS64E.v" Line 257: Timing violation in scope /inst_ram_tb/ins_ram/inst_ram_reg_0_255_6_6/RAMS64E_A/TChk257_1223 at time 9799 ps $setuphold (posedge CLK,posedge WE,(0:0:0),(0:0:0),notifier,clk_en_p,clk_en_p,CLK_delay,WE_delay) 
+WARNING: "D:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/RAMS64E.v" Line 257: Timing violation in scope /inst_ram_tb/ins_ram/inst_ram_reg_0_255_6_6/RAMS64E_B/TChk257_1294 at time 9799 ps $setuphold (posedge CLK,posedge WE,(0:0:0),(0:0:0),notifier,clk_en_p,clk_en_p,CLK_delay,WE_delay) 
+WARNING: "D:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/RAMS64E.v" Line 257: Timing violation in scope /inst_ram_tb/ins_ram/inst_ram_reg_0_255_6_6/RAMS64E_C/TChk257_1365 at time 9799 ps $setuphold (posedge CLK,posedge WE,(0:0:0),(0:0:0),notifier,clk_en_p,clk_en_p,CLK_delay,WE_delay) 
+WARNING: "D:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/RAMS64E.v" Line 257: Timing violation in scope /inst_ram_tb/ins_ram/inst_ram_reg_0_255_6_6/RAMS64E_D/TChk257_1436 at time 9799 ps $setuphold (posedge CLK,posedge WE,(0:0:0),(0:0:0),notifier,clk_en_p,clk_en_p,CLK_delay,WE_delay) 
+WARNING: "D:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/RAMS64E.v" Line 257: Timing violation in scope /inst_ram_tb/ins_ram/inst_ram_reg_0_255_7_7/RAMS64E_A/TChk257_1223 at time 9799 ps $setuphold (posedge CLK,posedge WE,(0:0:0),(0:0:0),notifier,clk_en_p,clk_en_p,CLK_delay,WE_delay) 
+WARNING: "D:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/RAMS64E.v" Line 257: Timing violation in scope /inst_ram_tb/ins_ram/inst_ram_reg_0_255_7_7/RAMS64E_B/TChk257_1294 at time 9799 ps $setuphold (posedge CLK,posedge WE,(0:0:0),(0:0:0),notifier,clk_en_p,clk_en_p,CLK_delay,WE_delay) 
+WARNING: "D:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/RAMS64E.v" Line 257: Timing violation in scope /inst_ram_tb/ins_ram/inst_ram_reg_0_255_7_7/RAMS64E_C/TChk257_1365 at time 9799 ps $setuphold (posedge CLK,posedge WE,(0:0:0),(0:0:0),notifier,clk_en_p,clk_en_p,CLK_delay,WE_delay) 
+WARNING: "D:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/RAMS64E.v" Line 257: Timing violation in scope /inst_ram_tb/ins_ram/inst_ram_reg_0_255_7_7/RAMS64E_D/TChk257_1436 at time 9799 ps $setuphold (posedge CLK,posedge WE,(0:0:0),(0:0:0),notifier,clk_en_p,clk_en_p,CLK_delay,WE_delay) 
+FINISH MEMORY INIZIALIZATION
+----------------------------
+READING MEMORY
+--------------
+INST_RAM[00000000] = 1e
+
+INST_RAM[00000001] = 00
+
+INST_RAM[00000002] = 02
+
+INST_RAM[00000003] = 04
+
+INST_RAM[00000004] = 06
+
+INST_RAM[00000005] = 08
+
+INST_RAM[00000006] = 0a
+
+INST_RAM[00000007] = 0c
+
+INST_RAM[00000008] = 0e
+
+INST_RAM[00000009] = 10
+
+INST_RAM[0000000a] = 12
+
+INST_RAM[0000000b] = 14
+
+INST_RAM[0000000c] = 16
+
+INST_RAM[0000000d] = 18
+
+INST_RAM[0000000e] = 1a
+
+INST_RAM[0000000f] = 1c
+
+$finish called at time : 665 ns : File "D:/BarIlan/DDP/exercises/RiscV/riscv-core/risc_v/risc_v.srcs/sim_1/new/inst_ram_tb.v" Line 75

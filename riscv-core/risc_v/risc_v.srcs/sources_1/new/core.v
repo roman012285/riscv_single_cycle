@@ -134,7 +134,7 @@ module core(
              end // end `i_type_arithm
              `i_type_dmem: begin
                       // gpr
-                      we_gpr = 1'b0;
+                      we_gpr = 1'b1;
                       en_gpr = 1'b1;
                       addr_rs1_gpr = `rs1;
                       addr_rs2_gpr = `rs2;
@@ -205,17 +205,17 @@ module core(
                             else
                                 N_PC = PC + 1; 
                       else if(`func == 3'b100)   
-                            if(flag_alu[1])
+                            if(flag_alu[0])
                                 N_PC = PC + {{20{`msb}}, `b_bit, `imm_bl, `imm_br, 1'b0};
                             else
                                 N_PC = PC + 1;
                      else if(`func == 3'b101)   
-                            if(!flag_alu[1])
+                            if(!flag_alu[0])
                                 N_PC = PC + {{20{`msb}}, `b_bit, `imm_bl, `imm_br, 1'b0};
                             else
                                 N_PC = PC + 1;            
                     else if(`func == 3'b110)   
-                            if(flag_alu[0])
+                            if(flag_alu[1])
                                 N_PC = PC + {{20{`msb}}, `b_bit, `imm_bl, `imm_br, 1'b0};
                             else
                                 N_PC = PC + 1;
@@ -254,7 +254,7 @@ module core(
                       rs1_alu      =  PC;
                       rs2_alu      =  {{12{`msb}}, `imm_jr, `l_bit, `imm_jl, 1'b0}; 
                       // program counter
-                      N_PC = PC + result_alu; 
+                      N_PC = result_alu; 
              end // end `j_type
              `u_type_auipc: begin
                       // gpr

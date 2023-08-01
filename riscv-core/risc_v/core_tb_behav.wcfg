@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="core_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="core_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="395000000fs"></ZoomStartTime>
+      <ZoomEndTime time="533000001fs"></ZoomEndTime>
+      <Cursor1Time time="510000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="202"></NameColumnWidth>
+      <ValueColumnWidth column_width="139"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="63" />
+   <wvobject fp_name="/core_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/DELAY" type="array">
+      <obj_property name="ElementShortName">DELAY[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DELAY[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider66">
+      <obj_property name="label">core</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/funct3_alu" type="array">
+      <obj_property name="ElementShortName">funct3_alu[3:0]</obj_property>
+      <obj_property name="ObjectShortName">funct3_alu[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/rs1_alu" type="array">
+      <obj_property name="ElementShortName">rs1_alu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1_alu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/rs2_alu" type="array">
+      <obj_property name="ElementShortName">rs2_alu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2_alu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/result_alu" type="array">
+      <obj_property name="ElementShortName">result_alu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result_alu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/flag_alu" type="array">
+      <obj_property name="ElementShortName">flag_alu[2:0]</obj_property>
+      <obj_property name="ObjectShortName">flag_alu[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/clk_gpr" type="logic">
+      <obj_property name="ElementShortName">clk_gpr</obj_property>
+      <obj_property name="ObjectShortName">clk_gpr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/we_gpr" type="logic">
+      <obj_property name="ElementShortName">we_gpr</obj_property>
+      <obj_property name="ObjectShortName">we_gpr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/en_gpr" type="logic">
+      <obj_property name="ElementShortName">en_gpr</obj_property>
+      <obj_property name="ObjectShortName">en_gpr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/addr_rs1_gpr" type="array">
+      <obj_property name="ElementShortName">addr_rs1_gpr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_rs1_gpr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/addr_rs2_gpr" type="array">
+      <obj_property name="ElementShortName">addr_rs2_gpr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_rs2_gpr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/addr_rd_gpr" type="array">
+      <obj_property name="ElementShortName">addr_rd_gpr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_rd_gpr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/data_rd_gpr" type="array">
+      <obj_property name="ElementShortName">data_rd_gpr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_rd_gpr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/data_rs1_gpr" type="array">
+      <obj_property name="ElementShortName">data_rs1_gpr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_rs1_gpr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/data_rs2_gpr" type="array">
+      <obj_property name="ElementShortName">data_rs2_gpr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_rs2_gpr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/addr_inst" type="array">
+      <obj_property name="ElementShortName">addr_inst[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_inst[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/clk_inst" type="logic">
+      <obj_property name="ElementShortName">clk_inst</obj_property>
+      <obj_property name="ObjectShortName">clk_inst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/din_inst" type="array">
+      <obj_property name="ElementShortName">din_inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din_inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/dout_inst" type="array">
+      <obj_property name="ElementShortName">dout_inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout_inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/addr_data" type="array">
+      <obj_property name="ElementShortName">addr_data[12:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_data[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/clk_data" type="logic">
+      <obj_property name="ElementShortName">clk_data</obj_property>
+      <obj_property name="ObjectShortName">clk_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/din_data" type="array">
+      <obj_property name="ElementShortName">din_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/dout_data" type="array">
+      <obj_property name="ElementShortName">dout_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/en_data" type="logic">
+      <obj_property name="ElementShortName">en_data</obj_property>
+      <obj_property name="ObjectShortName">en_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/we_data" type="logic">
+      <obj_property name="ElementShortName">we_data</obj_property>
+      <obj_property name="ObjectShortName">we_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/IR" type="array">
+      <obj_property name="ElementShortName">IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/PC" type="array">
+      <obj_property name="ElementShortName">PC[9:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/N_PC" type="array">
+      <obj_property name="ElementShortName">N_PC[9:0]</obj_property>
+      <obj_property name="ObjectShortName">N_PC[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider13">
+      <obj_property name="label">alu</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/alu_instance/func_code" type="array">
+      <obj_property name="ElementShortName">func_code[3:0]</obj_property>
+      <obj_property name="ObjectShortName">func_code[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/alu_instance/in1" type="array">
+      <obj_property name="ElementShortName">in1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/alu_instance/in2" type="array">
+      <obj_property name="ElementShortName">in2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/alu_instance/result" type="array">
+      <obj_property name="ElementShortName">result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/alu_instance/flag" type="array">
+      <obj_property name="ElementShortName">flag[2:0]</obj_property>
+      <obj_property name="ObjectShortName">flag[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider19">
+      <obj_property name="label">gpr</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/gpr_instance/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/gpr_instance/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/gpr_instance/en" type="logic">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/gpr_instance/addr_rs1" type="array">
+      <obj_property name="ElementShortName">addr_rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/gpr_instance/addr_rs2" type="array">
+      <obj_property name="ElementShortName">addr_rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/gpr_instance/addr_rd" type="array">
+      <obj_property name="ElementShortName">addr_rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/gpr_instance/data_rd" type="array">
+      <obj_property name="ElementShortName">data_rd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_rd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/gpr_instance/data_rs1" type="array">
+      <obj_property name="ElementShortName">data_rs1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_rs1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/gpr_instance/data_rs2" type="array">
+      <obj_property name="ElementShortName">data_rs2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_rs2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/gpr_instance/gpr_mem" type="array">
+      <obj_property name="ElementShortName">gpr_mem[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">gpr_mem[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider53">
+      <obj_property name="label">inst_ram</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/inst_ram_module/addra" type="array">
+      <obj_property name="ElementShortName">addra[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/inst_ram_module/clka" type="logic">
+      <obj_property name="ElementShortName">clka</obj_property>
+      <obj_property name="ObjectShortName">clka</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/inst_ram_module/dina" type="array">
+      <obj_property name="ElementShortName">dina[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/inst_ram_module/douta" type="array">
+      <obj_property name="ElementShortName">douta[31:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/inst_ram_module/inst_ram" type="array">
+      <obj_property name="ElementShortName">inst_ram[0:1023][31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_ram[0:1023][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider59">
+      <obj_property name="label">data_ram</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/data_ram_module/addra" type="array">
+      <obj_property name="ElementShortName">addra[12:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/data_ram_module/clka" type="logic">
+      <obj_property name="ElementShortName">clka</obj_property>
+      <obj_property name="ObjectShortName">clka</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/data_ram_module/dina" type="array">
+      <obj_property name="ElementShortName">dina[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/data_ram_module/douta" type="array">
+      <obj_property name="ElementShortName">douta[31:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/data_ram_module/ena" type="logic">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_tb/core_module/data_ram_module/wea" type="logic">
+      <obj_property name="ElementShortName">wea</obj_property>
+      <obj_property name="ObjectShortName">wea</obj_property>
+   </wvobject>
+</wave_config>

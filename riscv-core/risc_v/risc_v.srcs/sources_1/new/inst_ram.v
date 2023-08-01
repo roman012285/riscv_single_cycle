@@ -16,7 +16,10 @@ module inst_ram(
 
 
     reg [`INST_SIZE-1:0] inst_ram [0:`INST_DEPTH-1];
-       
+    
+    initial 
+        $readmemh("program.mem", inst_ram);
+                   
     assign douta = inst_ram[addra];
     
 endmodule

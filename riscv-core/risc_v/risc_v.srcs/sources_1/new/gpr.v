@@ -26,7 +26,7 @@ module gpr(
         if(we & en) 
             gpr_mem[addr_rd] <= data_rd;
     end
-        
+          
     assign data_rs1 = (!addr_rs1 | !en) ? 32'h00000000: gpr_mem[addr_rs1];
     assign data_rs2 = (!addr_rs2 | !en) ? 32'h00000000: gpr_mem[addr_rs2];
             

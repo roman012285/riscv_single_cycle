@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../risc_v.srcs/sources_1/new/alu.v" \
+"../../../../risc_v.srcs/sources_1/new/core.v" \
+"../../../../risc_v.srcs/sources_1/new/data_ram.v" \
+"../../../../risc_v.srcs/sources_1/new/gpr.v" \
+"../../../../risc_v.srcs/sources_1/new/inst_ram.v" \
+"../../../../risc_v.srcs/sources_1/new/core_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

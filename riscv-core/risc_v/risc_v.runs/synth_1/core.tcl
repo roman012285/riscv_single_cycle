@@ -17,7 +17,7 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
-set_param synth.incrementalSynthesisCache C:/Users/HarutzSchool/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-7584-HarutzSchool-PC/incrSyn
+set_param synth.incrementalSynthesisCache C:/Users/HarutzSchool/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12652-HarutzSchool-PC/incrSyn
 set_msg_config -id {Synth 8-256} -limit 10000
 set_msg_config -id {Synth 8-638} -limit 10000
 create_project -in_memory -part xc7a35tcpg236-1
@@ -33,6 +33,7 @@ set_property board_part_repo_paths {C:/Users/HarutzSchool/AppData/Roaming/Xilinx
 set_property board_part digilentinc.com:basys3:part0:1.1 [current_project]
 set_property ip_output_repo d:/BarIlan/DDP/exercises/RiscV/riscv-core/risc_v/risc_v.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
+read_mem D:/BarIlan/DDP/exercises/RiscV/riscv-core/risc_v/risc_v.srcs/sources_1/new/program.mem
 read_verilog -library xil_defaultlib {
   D:/BarIlan/DDP/exercises/RiscV/riscv-core/risc_v/risc_v.srcs/sources_1/new/defines.v
   D:/BarIlan/DDP/exercises/RiscV/riscv-core/risc_v/risc_v.srcs/sources_1/new/alu.v

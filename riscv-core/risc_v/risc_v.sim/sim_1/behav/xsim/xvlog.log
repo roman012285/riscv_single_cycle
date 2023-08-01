@@ -1,4 +1,12 @@
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BarIlan/DDP/exercises/RiscV/riscv-core/risc_v/risc_v.srcs/sources_1/new/alu.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module alu
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BarIlan/DDP/exercises/RiscV/riscv-core/risc_v/risc_v.srcs/sim_1/new/alu_tb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module alu_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BarIlan/DDP/exercises/RiscV/riscv-core/risc_v/risc_v.srcs/sources_1/new/core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module core
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BarIlan/DDP/exercises/RiscV/riscv-core/risc_v/risc_v.srcs/sources_1/new/data_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BarIlan/DDP/exercises/RiscV/riscv-core/risc_v/risc_v.srcs/sources_1/new/gpr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gpr
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BarIlan/DDP/exercises/RiscV/riscv-core/risc_v/risc_v.srcs/sources_1/new/inst_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/BarIlan/DDP/exercises/RiscV/riscv-core/risc_v/risc_v.srcs/sources_1/new/core_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module core_tb
